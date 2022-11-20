@@ -30,12 +30,6 @@ gem 'travel_salesman'
   
   ## Documentation
 
-With using irb just require gem and start using
-
-```rb
-require 'turkish_cities'
-```
-
 ### Finding best route cost
 
 Route start and end at first index of the 2D array. This 2D array is your distance matrix
