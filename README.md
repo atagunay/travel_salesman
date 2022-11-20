@@ -48,8 +48,8 @@ Route start and end at first index of the 2D array. This 2D array is your distan
     [8, 8, 9, 0]
 ]
 
-puts TravelSalesman.new(distance_matrix).get_tour_distance
-
+TravelSalesman.new(distance_matrix).get_tour_distance
+# => 35 
 ```
   
 ### Finding best route
@@ -65,6 +65,7 @@ Route start and end at first index of the 2D array. This 2D array is your distan
 ]
 
 puts TravelSalesman.new(distance_matrix).get_tour_route
+# => [0, 1, 3, 2, 0]
 
 ```
   
